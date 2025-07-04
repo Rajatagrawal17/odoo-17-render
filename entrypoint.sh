@@ -1,3 +1,2 @@
 #!/bin/bash
-exec odoo "$@"
-
+exec odoo -c /odoo.conf
